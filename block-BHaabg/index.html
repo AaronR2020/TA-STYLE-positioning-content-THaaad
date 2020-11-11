@@ -1,15 +1,88 @@
-<!-- ### Exercise
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-1. Create a simple page having a header, main content, and a footer.
+<body>
 
-2. Inside the header keep the logo to the left and all the navigation to the right.
+    <header>
+        <div class="inner clearfix">
+            <div class="left">
+                <img src="assets\logo.jpg" alt="logo" class="logo">
+            </div>
 
-3. The header must be fixed at the top of the page.
+            <div class="right pushR">
+                <a href="#">Home</a>
+                <a href="#">About us</a>
+                <a href="#">Service</a>
+                <a href="#">Contact us</a>
+            </div>
+        </div>
+    </header>
 
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+    <main id="top_info">
 
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+        <div class="bg1">  
+            <section class="clearfix inner content">
 
-6. After the gallery section footer will come.
+                <div class="leftSection">
+                    <h2>
+                        Some Heading
+                    </h2>
+                    <br>
+                    <article>
+                        Cras ultricies ligula sed magna dictum porta. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+                    </article>
+                </div>
 
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+                <div class="rightSection img1">
+                    <img src="assets\logo.jpg" alt="logo image" id="f1">
+                </div>
+            
+            
+            </section>
+        </div>
+
+        <div class="bg2">
+            <section class="clearfix inner content">
+                <div class="left_img">
+                    <img src="assets\img3.jpg" alt="img 3">
+                </div>
+                <div class="left_img">
+                    <img src="assets\img1.jpg" alt="image 1">
+                </div>
+                <div class="left_img">
+                    <img src="assets\img2.jpg" alt="image 2">
+                </div>
+            </section>
+        </div>
+
+        <div class="bg3">
+            <section class="clearfix inner content">
+                <div class="left_img">
+                    <img src="assets\img4.jpg" alt="image 4">
+                </div>
+                <div class="left_img">
+                    <img src="assets\img5.jpg" alt="image 5">
+                </div>
+                <div class="left_img">
+                    <img src="assets\img6.jpg" alt="image 6">
+                </div>
+            </section>         
+        </div>
+    </main>
+
+    <footer>
+        <div class="inner">
+            <button id="button">
+               <a href="#top_info">Click Me</a>
+            </button>
+        </div>
+    </footer>
+    
+</body>
+</html>
